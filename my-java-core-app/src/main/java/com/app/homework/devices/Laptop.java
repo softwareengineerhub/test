@@ -35,4 +35,10 @@ public class Laptop extends Device {
         }
         return false;
     }
+
+    @Override
+    public int hashCode(){
+        int hash = super.hashCode() + screenSize;
+        return hash;
+    }
 }

@@ -1,6 +1,7 @@
 package main.java.com.app.homework.devices;
 
 import main.java.com.app.homework.Device;
+import main.java.com.app.homework.utils.DataGeneratorUtils;
 
 public class Phone extends Device {
 
@@ -40,5 +41,11 @@ public class Phone extends Device {
             }
         }
         return false;
+    }
+
+    @Override
+    public int hashCode(){
+        int hash = super.hashCode() + DataGeneratorUtils.generateID();
+        return hash;
     }
 }
