@@ -1,5 +1,7 @@
-package com.app.homework;
+package com.app.homework.mains;
 
+import com.app.homework.Device;
+import com.app.homework.Product;
 import com.app.homework.devices.Laptop;
 import com.app.homework.devices.Phone;
 import com.app.homework.devices.Tv;
@@ -17,6 +19,7 @@ public class MainClass {
 
         Device xiaomi = deviceFactory.createDevice(DeviceTypes.PHONE);
         xiaomi.setHeight(12);
+        // ??? why method cannot be visible if protected
         xiaomi.setModel("Mi10");
         try {
             xiaomi.readDeviceFromDB();

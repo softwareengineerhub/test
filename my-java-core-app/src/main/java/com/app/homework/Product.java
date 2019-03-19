@@ -3,7 +3,7 @@ package com.app.homework;
 import com.app.homework.enums.ProductType;
 import com.app.homework.utils.DataGeneratorUtils;
 
-public class Product {
+public abstract class Product {
 
     private int id;
     private int weight;
@@ -18,11 +18,11 @@ public class Product {
         return productType;
     }
 
-    protected void setProductType(ProductType productType) {
+    public void setProductType(ProductType productType) {
         this.productType = productType;
     }
 
-    protected int getId() {
+    public int getId() {
         return id;
     }
 
@@ -42,15 +42,15 @@ public class Product {
         return height;
     }
 
-    protected void setHeight(int height) {
+    public void setHeight(int height) {
         this.height = height;
     }
 
-    protected void buy(){
+    public void buy(){
         System.out.println("Product: " + toString() + " - bought");
     }
 
-    protected void sale(){
+    public void sale(){
         System.out.println("Product: " + toString() + " - sold");
     }
 
