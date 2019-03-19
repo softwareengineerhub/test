@@ -1,4 +1,4 @@
-package com.app.homework.utils;
+package main.java.com.app.homework.utils;
 
 /**
  * utils to provide usable methods for output messages to console

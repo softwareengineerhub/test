@@ -1,4 +1,4 @@
-package com.app.homework.enums;
+package main.java.com.app.homework.enums;
 
 public enum DeviceTypes {
 

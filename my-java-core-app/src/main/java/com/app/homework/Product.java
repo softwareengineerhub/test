@@ -1,7 +1,7 @@
-package com.app.homework;
+package main.java.com.app.homework;
 
-import com.app.homework.enums.ProductType;
-import com.app.homework.utils.DataGeneratorUtils;
+import main.java.com.app.homework.enums.ProductType;
+import main.java.com.app.homework.utils.DataGeneratorUtils;
 
 public class Product {
 

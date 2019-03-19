@@ -1,6 +1,6 @@
-package com.app.homework.devices;
+package main.java.com.app.homework.devices;
 
-import com.app.homework.Device;
+import main.java.com.app.homework.Device;
 
 public class Phone extends Device {
 

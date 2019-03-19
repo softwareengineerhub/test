@@ -1,13 +1,13 @@
-package com.app.homework;
+package main.java.com.app.homework;
 
-import com.app.homework.devices.Laptop;
-import com.app.homework.devices.Phone;
-import com.app.homework.devices.Tv;
-import com.app.homework.enums.DeviceTypes;
-import com.app.homework.enums.ProductType;
-import com.app.homework.exceptions.DeviceNotFoundException;
-import com.app.homework.factory.DeviceFactory;
-import com.app.homework.utils.ConsoleOutputUtils;
+import main.java.com.app.homework.devices.Laptop;
+import main.java.com.app.homework.devices.Phone;
+import main.java.com.app.homework.devices.Tv;
+import main.java.com.app.homework.enums.DeviceTypes;
+import main.java.com.app.homework.enums.ProductType;
+import main.java.com.app.homework.exceptions.DeviceNotFoundException;
+import main.java.com.app.homework.factory.DeviceFactory;
+import main.java.com.app.homework.utils.ConsoleOutputUtils;
 
 public class MainClass {
 
