@@ -1,6 +1,6 @@
-package main.java.com.app.homework;
+package com.app.homework;
 
-import main.java.com.app.homework.exceptions.DeviceNotFoundException;
+import com.app.homework.exceptions.DeviceNotFoundException;
 
 public class Device extends Product {
 

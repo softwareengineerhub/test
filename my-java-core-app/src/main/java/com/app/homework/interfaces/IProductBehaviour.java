@@ -1,4 +1,4 @@
-package main.java.com.app.homework.interfaces;
+package com.app.homework.interfaces;
 
 public interface IProductBehaviour {
     void sale();

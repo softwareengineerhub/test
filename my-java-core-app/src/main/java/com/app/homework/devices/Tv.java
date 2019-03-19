@@ -1,7 +1,7 @@
-package main.java.com.app.homework.devices;
+package com.app.homework.devices;
 
-import main.java.com.app.homework.Device;
-import main.java.com.app.homework.utils.DataGeneratorUtils;
+import com.app.homework.Device;
+import com.app.homework.utils.DataGeneratorUtils;
 
 public class Tv extends Device {
 

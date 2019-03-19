@@ -1,4 +1,4 @@
-package main.java.com.app.homework.enums;
+package com.app.homework.enums;
 
 public enum ProductType {
 

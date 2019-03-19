@@ -1,6 +1,6 @@
-package main.java.com.app.homework.devices;
+package com.app.homework.devices;
 
-import main.java.com.app.homework.Device;
+import com.app.homework.Device;
 
 public class Laptop extends Device {
 

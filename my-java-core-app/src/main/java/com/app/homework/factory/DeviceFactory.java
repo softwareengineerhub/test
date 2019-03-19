@@ -1,10 +1,10 @@
-package main.java.com.app.homework.factory;
+package com.app.homework.factory;
 
-import main.java.com.app.homework.Device;
-import main.java.com.app.homework.devices.Laptop;
-import main.java.com.app.homework.devices.Phone;
-import main.java.com.app.homework.devices.Tv;
-import main.java.com.app.homework.enums.DeviceTypes;
+import com.app.homework.Device;
+import com.app.homework.devices.Laptop;
+import com.app.homework.devices.Phone;
+import com.app.homework.devices.Tv;
+import com.app.homework.enums.DeviceTypes;
 
 /**
  * Factory to create different types of Devices

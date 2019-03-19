@@ -1,4 +1,4 @@
-package main.java.com.app.homework.exceptions;
+package com.app.homework.exceptions;
 
 import java.sql.SQLException;
 
