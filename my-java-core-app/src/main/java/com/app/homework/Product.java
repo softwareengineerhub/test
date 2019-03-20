@@ -22,6 +22,9 @@ public abstract class Product {
         this.productType = productType;
     }
 
+    public abstract void on();
+    public abstract void off();
+
     public int getId() {
         return id;
     }

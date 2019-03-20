@@ -2,7 +2,7 @@ package com.app.homework;
 
 import com.app.homework.exceptions.DeviceNotFoundException;
 
-public class Device extends Product {
+public abstract class Device extends Product {
 
     private String model;
     private final String manufacturer;

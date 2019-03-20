@@ -1,6 +1,7 @@
 package com.app.homework.devices;
 
 import com.app.homework.Device;
+import com.app.homework.utils.ConsoleOutputUtils;
 import com.app.homework.utils.DataGeneratorUtils;
 
 public class Phone extends Device {
@@ -47,5 +48,15 @@ public class Phone extends Device {
     public int hashCode(){
         int hash = super.hashCode() + DataGeneratorUtils.generateID();
         return hash;
+    }
+
+    @Override
+    public void on() {
+        ConsoleOutputUtils.print("Turn phone on by press button once");
+    }
+
+    @Override
+    public void off() {
+        ConsoleOutputUtils.print("Turn phone off by press button and hold");
     }
 }

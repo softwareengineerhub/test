@@ -1,6 +1,7 @@
 package com.app.homework.devices;
 
 import com.app.homework.Device;
+import com.app.homework.utils.ConsoleOutputUtils;
 
 public class Laptop extends Device {
 
@@ -40,5 +41,15 @@ public class Laptop extends Device {
     public int hashCode(){
         int hash = super.hashCode() + screenSize;
         return hash;
+    }
+
+    @Override
+    public void on() {
+        ConsoleOutputUtils.print("Turn Laptop on by open it");
+    }
+
+    @Override
+    public void off() {
+        ConsoleOutputUtils.print("Turn Laptop off by close it");
     }
 }
