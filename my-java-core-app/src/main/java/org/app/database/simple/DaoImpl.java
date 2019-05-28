@@ -1,5 +1,6 @@
 package org.app.database.simple;
 
+import javax.sql.DataSource;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 public class DaoImpl implements Dao {
+    private DataSource ds = new MyDataSource();
 
     /*static {
         try {
@@ -124,6 +126,7 @@ public class DaoImpl implements Dao {
     }
 
     private Connection getConnection() throws SQLException {
-        return DriverManager.getConnection("jdbc:mysql://localhost:3307/taras_db", "root", "11111111");
+    //    return DriverManager.getConnection("jdbc:mysql://localhost:3307/taras_db", "root", "11111111");
+        return ds.getConnection();
     }
 }
